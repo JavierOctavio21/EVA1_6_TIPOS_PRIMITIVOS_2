@@ -1,0 +1,22 @@
+#include <iostream>
+
+using namespace std;
+
+int main() {
+    cout << "Introduce tu nombre" << endl;
+    string sNombre;
+    
+    cin >> sNombre;
+    cout << "Ingresa tu Edad" << endl;
+    int iEdad;
+    
+    cin >> iEdad;
+    int iAnio;
+    
+    iAnio = 2018 - iEdad;
+    cout << "Tu nombre es ";
+    cout << sNombre << endl;
+    cout << "Tu año de nacimiento es ";
+    cout << iAnio << endl;
+    return 0;
+}
